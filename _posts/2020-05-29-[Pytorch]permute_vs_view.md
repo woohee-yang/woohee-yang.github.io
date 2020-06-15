@@ -14,7 +14,8 @@ tensor.permute() : tensor 차원 순서를 원하는 순서로 변경해준다.
 numpy transpose와 동일
 
 Code :
-'''
+
+```
 import torch
 import numpy as np
 
@@ -69,8 +70,7 @@ vnum = num.reshape(-1, 1)
 print(vnum)
 print(vnum.shape)
 print()
-
-'''
+```
 
 Results :
 [results](/assets/images/2020-05-29-view_permute.PNG)

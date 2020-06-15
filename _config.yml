@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------
 # Jekyll & Global Configuration
-## Docs: https://jekyllrb.com/docs/configuration/
+# Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
 # Site
@@ -48,6 +48,10 @@ highlight:
 markdown: kramdown
 kramdown:
     input: GFM
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 # Default Attributes
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
