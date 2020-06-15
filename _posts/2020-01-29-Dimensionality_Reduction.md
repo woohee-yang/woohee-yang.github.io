@@ -9,6 +9,7 @@ tags:
 comments:  true ## 댓글 기능
 use_math : true
 last_modified_at : 2020-01-29 01:21:00
+published: false
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp; 본 포스트는 [Hands-On Machine Learning with Scikit-Learn & TensorFlow] (저자 : Aurelien Geron / 부제: 핸즈온 머신러닝) 8장을 참고한 자료이다.

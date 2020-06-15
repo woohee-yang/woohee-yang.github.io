@@ -7,10 +7,10 @@ use_math : true
 toc: true
 comments:       true ## 댓글 기능
 ---
-# 현재 사용하는 개발환경 정리
+# 1. 현재 사용하는 개발환경 정리
 - 다시 환경 구축시 순서대로 하면 됨
 
-## Anaconda
+## 2. Anaconda
 - 파이썬 패키지 의존성 관리 및 가상환경 생성 편리를 위해서 사용
 - Anaconda prompt에서 첨부된 명령어로 가상환경 관리
 
@@ -59,13 +59,13 @@ python -m ipykernel install --user --name <VirtualEnv> --display-name "KernelNam
 jupyter notebook --ip=[ipAddress]
 ```
 
-## VSCode
+## 3. VSCode
 1. VSCode 다운로드 : <https://code.visualstudio.com/>
 
 2. 사용 패키지 설치
     - 
 
-## Jupyter Notebook
+## 4. Jupyter Notebook
 
 
 

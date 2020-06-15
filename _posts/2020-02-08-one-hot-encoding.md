@@ -8,6 +8,7 @@ tags:
 last_modified_at : 2020-02-08 17:27:00
 use_math: true
 toc: true
+published: false
 ---
 
 ## Numpy로 One-Hot Encoding

@@ -7,6 +7,7 @@ tags:
     - command
 comments:       true ## 댓글 기능
 last_modified_at : 2020-01-24 22:47:00
+published: false
 ---
 
 가상환경 관리를 쉽게 하려고 아나콘다를 매일 사용하지만 명령어는 항상 까먹는 나를 위한 기록

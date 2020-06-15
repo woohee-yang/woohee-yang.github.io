@@ -1,9 +1,10 @@
 ---
-title: "Binary Cross Entropy in Pytorch" ## 포스트 제목
+title: "[Pytorch] Binary Cross Entropy" ## 포스트 제목
 tags:
     - I3D
     - temporal reduction
     - research log
+    - Pytorch
 last_modified_at : 2020-02-12 00:30:00
 use_math: true
 toc: true
