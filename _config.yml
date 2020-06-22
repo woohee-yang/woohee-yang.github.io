@@ -39,7 +39,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
-highlighter: pygments #rouge
+highlighter: rouge
 highlight:
   line_number: true
 
@@ -356,7 +356,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: NATIVE
+highlight_theme: night_bright #NATIVE
 
 
 # ---------------------------------------------------------------
