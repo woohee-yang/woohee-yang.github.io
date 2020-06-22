@@ -30,11 +30,11 @@
 
           {% capture number_prefix %}{{ include.number_prefix }}{{ forloop.index }}.{% endcapture %}
           {% assign level = include.level | plus: 1 %}
-          {% include _helper/_toc.html source=source level=level number_prefix=number_prefix %}
+          {% include _helper/_toc.html source=source level=level %}
           {% if _toc.size != 0 %}
-            <dl class="{{ class }}-child">
+            <ol class="{{ class }}-child">
               {{ _toc }}
-            </dl>
+            </ol>
           {% endif %}
         </li>
       {% endfor %}
