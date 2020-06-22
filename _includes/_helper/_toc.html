@@ -32,9 +32,9 @@
           {% assign level = include.level | plus: 1 %}
           {% include _helper/_toc.html source=source level=level number_prefix=number_prefix %}
           {% if _toc.size != 0 %}
-            <ol class="{{ class }}-child">
+            <ul class="{{ class }}-child">
               {{ _toc }}
-            </ol>
+            </ul>
           {% endif %}
         </li>
       {% endfor %}
