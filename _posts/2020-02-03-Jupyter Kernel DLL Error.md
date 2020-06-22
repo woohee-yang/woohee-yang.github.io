@@ -20,7 +20,7 @@ last_modified_at : 2020-02-03 12:40:00
 
 ## 해결책
 
-1. 처음에는 jupyter kernel중 pytorch 커널이 같은 이름으로 중복 등록되어 kernel을 잘못 선택하는 에러를 발견하여 kernel list 정리
+**1\.** 처음에는 jupyter kernel중 pytorch 커널이 같은 이름으로 중복 등록되어 kernel을 잘못 선택하는 에러를 발견하여 kernel list 정리
 
 관련 명령어 :
 
@@ -30,7 +30,7 @@ jupyter kernelspce uninstall <kernel_name> : 해당 커널 삭제
 python -m ipykernel install --user --name <kernel> --display-name <kernel_name> : 해당 커널 등록 및 지정된 이름 사용
 ```
 
-2. dll이 없어진것도 아니므로 jupyter가 경로를 못 찾는다 판단하여 jupyter를 업데이트 
+**2\.** dll이 없어진것도 아니므로 jupyter가 경로를 못 찾는다 판단하여 jupyter를 업데이트 
 
 [jupyter kernel dll error](https://stackoverflow.com/questions/46353215/import-error-dll-load-failed-in-jupyter-notebook-but-working-in-py-file)
 
@@ -39,7 +39,7 @@ python -m ipykernel install --user --name <kernel> --display-name <kernel_name> 
 - opencv-python-contrib 패키지가 numpy를 특정 버전에서만 
 
 
-3. ipykernel 개념 모르쥬? kernel이 뭘 의미하는지 대략적으로 이제 파악 -> 실행할 수 있는 환경 자체를 말하는듯
+**3\.** ipykernel 개념 모르쥬? kernel이 뭘 의미하는지 대략적으로 이제 파악 -> 실행할 수 있는 환경 자체를 말하는듯
 
 이게 새로 만든 환경을 기반으로 만들어져야하는데 그걸 무시하고 계속 base로 만들었으니.......^^
 

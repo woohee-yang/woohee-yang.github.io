@@ -43,11 +43,11 @@ Incompatible units: 'px' and 'x'.
 ### 참고 링크
 <hr>
 
-1. 이 대삽질 와중에도 수확이 있다. 아래 링크에서 포스팅이 안될 때 거의 모든 해결책이 답변으로 기록되어있다. 
+**1\.** 이 대삽질 와중에도 수확이 있다. 아래 링크에서 포스팅이 안될 때 거의 모든 해결책이 답변으로 기록되어있다. 
 
     [Stack overflow : Problem is my GitHub page do not update its content](https://stackoverflow.com/questions/24713112/problem-is-my-github-page-do-not-update-its-content)
 
-2. 아래 링크들은 지킬 블로그를 생성하는 방법에 대해 내가 본 포스트 중 가장 깔끔하다고 생각한다.
+**2\.** 아래 링크들은 지킬 블로그를 생성하는 방법에 대해 내가 본 포스트 중 가장 깔끔하다고 생각한다.
 
     [Jekyll Blog 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
     [하우투 : 같이 따라하기 시리즈](https://devinlife.com/howto/)

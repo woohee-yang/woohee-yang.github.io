@@ -27,7 +27,7 @@ last_modified_at : 2020-02-02 05:01:00
 
 ## 최종 해결책
 
-1. Markdown Internal Link
+**1\.** Markdown Internal Link
 
     ```
     [원하는 문구]({\\% link 포스트위치/포스트이름.md \\%})
@@ -50,7 +50,7 @@ last_modified_at : 2020-02-02 05:01:00
 
     그리고 이미지 입력시에도 반드시 주의해야 할 것이 **확장자 대문자**도 신경써야한다. 이걸로도 1시간....ㅠㅠ
 
-2. New Category
+**2\.** New Category
 
     이는 [하우투 : 같이 따라하기 시리즈](https://devinlife.com/howto/)에 아주 매우 상세하게 잘! 나와 있었다ㅠㅠ(9번 탭에 가서 보면 된다.)
 
@@ -80,20 +80,20 @@ last_modified_at : 2020-02-02 05:01:00
 
     끝!
 
-3. "%" liquid tag 안에서 그냥 사용하다가 오류만 팡팡 터져서 몇 분 동안 수정했는지 모르겠다.. 함부러 사용하지 말 것!!!
+**3\.** "%" liquid tag 안에서 그냥 사용하다가 오류만 팡팡 터져서 몇 분 동안 수정했는지 모르겠다.. 함부러 사용하지 말 것!!!
 
-4. 코드 하이라이트 기능 사용 단순 오탈자 오류지만 liquid tag 사용 되새기자는 의미
+**4\.** 코드 하이라이트 기능 사용 단순 오탈자 오류지만 liquid tag 사용 되새기자는 의미
     아래 첨고 링크 2에 가면 유용한 liquid tag 종류를 볼 수 있다.
 
 ### 참고 링크
 <hr>
 
 
-1. 우리 모두의 스택오버플로우... 
+**1\.** 우리 모두의 스택오버플로우... 
 
 [jekyll markdown internal links - Stack Overflow](https://stackoverflow.com/questions/4629675/jekyll-markdown-internal-links)
 
-2. 무시말자 공식... 
+**2\.** 무시말자 공식... 
 
 [Jekyll Tag Filters](https://jekyllrb.com/docs/liquid/tags/)
 
