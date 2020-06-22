@@ -3,8 +3,8 @@
 {% assign toc = _toc | normalize_whitespace %}
 {% if toc.size != 0 %}
   {% capture toc %}
-    <ul class={{ class }}>
+    <dl class={{ class }}>
       {{ toc }}
-    </ul>
+    </dl>
   {% endcapture %}
 {% endif %}
