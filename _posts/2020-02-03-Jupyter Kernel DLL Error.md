@@ -1,7 +1,7 @@
 ---
 title: "Error Report : Jupyter Notebook Kernel DLL Error" ## 포스트 제목
 category:
-    - Error Report
+    - Development Environment
 tags:
     - jupyter notebook
     - kernel

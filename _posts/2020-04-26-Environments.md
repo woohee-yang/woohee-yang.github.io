@@ -1,7 +1,11 @@
 ---
 title: "개발 환경 총 정리" ## 포스트 제목
 category:       
-    - Environments
+    - Development Environment
+tag:
+    - anaconda
+    - vscode
+    - jupyter notebook
 last_modified_at : 2020-04-26
 use_math : true
 toc: true
