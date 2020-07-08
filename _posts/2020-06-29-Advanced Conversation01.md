@@ -9,6 +9,7 @@ comments:  true
 use_math : true
 last_modified_at : 2020-06-29
 toc: true
+published : false
 ---
 
 # 강의 소개 
