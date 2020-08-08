@@ -64,7 +64,7 @@ $selection-color              : white;
 // Font families.
 $font-family-chinese      : "PingFang SC", "Microsoft YaHei";
 
-$font-family-base         : $font-family-chinese, sans-serif;
+$font-family-base         : "Nanum Gothic", "Nanum Gothic Coding", $font-family-chinese, sans-serif;
 $font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, sans-serif), $font-family-base);
 
 $font-family-logo         : $font-family-base;
@@ -76,7 +76,7 @@ $font-family-headings     : if(get_font_family('headings'), (get_font_family('he
 $font-family-posts        : $font-family-base;
 $font-family-posts        : if(get_font_family('posts'), (get_font_family('posts'), $font-family-base), $font-family-posts);
 
-$font-family-monospace    : Menlo, monospace; //"Nanum Gothic", consolas, 
+$font-family-monospace    : "Nanum Gothic", "Nanum Gothic Coding", "Menlo", monospace; //"Nanum Gothic", consolas, 
 $font-family-monospace    : if(get_font_family('codes'), (get_font_family('codes'), Menlo, monospace), "Nanum Gothic", "Nanum Gothic Coding", $font-family-monospace);
 
 $font-family-icons        : 'FontAwesome';
