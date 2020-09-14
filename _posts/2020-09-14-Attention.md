@@ -37,9 +37,9 @@ toc: true
 
 - 어텐션을 함수로 표현하면 아래와 같이 표현한다.
 
-<center>$Attention(Q, K, V) = Attention Value$
+<center>$Attention(Q, K, V) = Attention Value$</center>
 
-$Q$ : 쿼리(Query), $K$ : 키(Key), $V$ : 값(Value) </center>
+<center> $Q$ : 쿼리(Query), $K$ : 키(Key), $V$ : 값(Value) </center>
 
 - 어텐션 함수는  
     **1\.** 주어진 쿼리에 대해 모든 키와의 유사도를 각각 구한다.  
@@ -161,8 +161,7 @@ $Q$ : 쿼리(Query), $K$ : 키(Key), $V$ : 값(Value) </center>
 
 <center>$\tilde{s_{t}} = tanh(W_{c}|\alpha_{t};s_{t}| + b_{c})$ </center>
 
-$W_{c}$ : 학습 가능한 가중치 행렬
-$b_{c}$ : 편향 (그림에는 생략)
+<center>$W_{c}$ : 학습 가능한 가중치 행렬, $b_{c}$ : 편향 (그림에는 생략)</center>
 
 ---
 
