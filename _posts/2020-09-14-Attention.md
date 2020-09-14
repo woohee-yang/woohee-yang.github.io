@@ -1,7 +1,7 @@
 ---
-title: "Attention" ## 포스트 제목
+title: "Attention Mechanism" ## 포스트 제목
 category:       
-    - 딥러닝
+    - Deep Learning
 tags:           
     - attention
 comments:  true
