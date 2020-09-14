@@ -37,11 +37,9 @@ toc: true
 
 - 어텐션을 함수로 표현하면 아래와 같이 표현한다.
 
-<center>$Attention(Q, K, V) = Attention Value$</center>
+<center>$Attention(Q, K, V) = Attention Value$
 
-$Q$ : 쿼리(Query)
-$K$ : 키(Key)
-$V$ : 값(Value)
+$Q$ : 쿼리(Query), $K$ : 키(Key), $V$ : 값(Value) </center>
 
 - 어텐션 함수는  
     **1\.** 주어진 쿼리에 대해 모든 키와의 유사도를 각각 구한다.  
