@@ -191,6 +191,7 @@ toc: true
 ## 참고
 
 1. [딥 러닝을 이용한 자연어 처리 입문 : 16. 어텐션 메커니즘](https://wikidocs.net/22893)
+2. [기초부터 시작하는 NLP: SEQUENCE TO SEQUENCE 네트워크와 ATTENTION을 이용한 번역](https://tutorials.pytorch.kr/intermediate/seq2seq_translation_tutorial.html#nlp-sequence-to-sequence-attention)
     
 
 
