@@ -1,8 +1,9 @@
 ---
-title: "[Programming] Attention Mechanism" ## 포스트 제목
+title: "[Pratice] LSTM Attention" ## 포스트 제목
 category:       
-    - Deep Learning
+    - Practice
 tags:           
+    - lstm
     - attention
 comments:  true
 use_math : true
