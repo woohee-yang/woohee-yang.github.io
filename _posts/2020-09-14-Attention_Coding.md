@@ -155,12 +155,12 @@ class DecoderRNN(nn.Module):
 - 어텐션은 디코더 네트워크가 자기 출력의 모든 단계에서 인코더 출력의 현 출력과 가장 적합한 부분에 "집중"할 수 있게 한다.  
     - 어텐션 스코어 계산 : 스코어 조합을 만들기 위해 각 시점에서 인코더 출력 벡터와 어텐션 분포가 곱해진다. 따라서 어텐션은 입력 시퀀스의 특정 부분에 관한 정보를 포함하고, 디코더가 알맞은 출력 단어를 선택하는 것을 도와준다.  
     - 어텐션 스코어 계산은 디코더의 입력 및 은닉 상태를 입력으로 사용하는 다른 feed-forward 계층인 `attn`으로 수행된다.  
-    - 이 때, 현 예제에서는 어텐션 스코어를 구하기 위해 인코더의 모든 은닉상태, 컨텍스트 벡터와 각 시점에서 디코더의 은닉상태 벡터 유사도를 feed-forward 계층으로 구했으나, dot, scaled dot, concat, location-base 등 다른 방법으로도 구할 수 있다. 이에 따라 어텐션 종류가 달라진다. [참조: 5.다양한 종류의 어텐션](https://woohee-yang.github.io/deep%20learning/2020/09/14/Attention/)
+    - 이 때, 현 예제에서는 어텐션 스코어를 구하기 위해 인코더의 모든 은닉상태, 컨텍스트 벡터와 각 시점에서 디코더의 은닉상태 벡터 유사도를 feed-forward 계층으로 구했으나, dot, scaled dot, concat, location-base 등 다른 방법으로도 구할 수 있다. 이에 따라 어텐션 종류가 달라진다. [(참조: 5.다양한 종류의 어텐션)](https://woohee-yang.github.io/deep%20learning/2020/09/14/Attention/)
 
 ![att_pro03](/assets/images/2020-09-14-att_pro03.png)
   
 - 학습데이터에는 모든 크기의 문장이 있기 때문에 이 계층을 실제로 만들고 학습시키려면 적용할 수 있는 최대 문장 길이(인코더 출력을 위한 입력 길이)를 선택해야 한다. 최대 길이의 문장은 모든 어텐션 스코어를 사용하지만 더 짧은 문장은 처음 몇개만 사용한다.  
-
+  
 ![att_pro04](/assets/images/2020-09-14-att_pro04.png)  
   
 **CODE :**  
@@ -217,9 +217,9 @@ class AttnDecoderRNN(nn.Module):
     def initHidden(self):
         return torch.zeros(1, 1, self.hidden_size, device=device)
 ```
-
-- 이전 Attention Mechanism 포스트에서 내적 어텐션과 가장 다른 점:  
-    **1\.** 과정 2: 어텐션 분포 구하기 -> 어텐션 내적과 달리, feed-forward 계층으로 어텐션 스코어 구함  더 은닉 상태와 가
+  
+- `이전 Attention Mechanism 포스트에서 내적 어텐션과 가장 다른 점:`  
+    **1\.** 과정 2: 어텐션 분포 구하기 -> 어텐션 내적과 달리, feed-forward 계층으로 어텐션 스코어 구함  
     **2\.** 과정 3: 어텐션 값 구하기 -> 어텐션 값을 인코더 은닉 상태와 곱하지 않고, 어텐션 값을 인코더 출력 벡터와 곱함(torch.bmm)  
     **3\.** 과정 4: 어텐션 값과 디코더 t시점 은닉 상태가 아니라, 어텐션 값과 현재 디코더 입력과 결합  
   
