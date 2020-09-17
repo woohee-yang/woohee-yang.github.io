@@ -98,6 +98,12 @@ toc: true
 
 ---
 
+8. Attention 시각화
+
+- Attention 출력을 행렬로 표현하려면 `plt.matshow(attentions)`로 저장되었던 모든 attention값을 출력하면 된다.
+
+---
+
 ## 참고
 
 1. [기초부터 시작하는 NLP: SEQUENCE TO SEQUENCE 네트워크와 ATTENTION을 이용한 번역](https://tutorials.pytorch.kr/intermediate/seq2seq_translation_tutorial.html#nlp-sequence-to-sequence-attention)
