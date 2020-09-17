@@ -12,8 +12,8 @@ toc: true
 ---
 
 - 파이토치에서 임베딩 벡터를 사용하는 방법:  
-    1. 임베딩 층(embedding layer)을 만들어 훈련 데이터로부터 처음부터 임베딩 벡터를 학습하는 방법  
-    2. 사전 훈련된 임베딩 벡터(pre-trained word embedding)을 사용하는 방법  
+    **1\.** 임베딩 층(embedding layer)을 만들어 훈련 데이터로부터 처음부터 임베딩 벡터를 학습하는 방법   
+    **2\.** 사전 훈련된 임베딩 벡터(pre-trained word embedding)을 사용하는 방법  
 
 - 현 포스트에서는 방법1을 다룬다.
 
@@ -23,7 +23,7 @@ toc: true
 
 - 임베딩 층의 입력으로 사용하기 위해 입력 시퀀스의 각 단어들은 모두 정수 인코딩이 되어 있어야 한다. 따라서 아래와 같은 프로세스로 입력 단어들은 임베딩 된다.  
 
-`어떤 단어 -> 단어에 부여된 고유한 정수값 -> 임베딩 층 통과 -> 밀집 벡터`  
+<center> `어떤 단어 -> 단어에 부여된 고유한 정수값 -> 임베딩 층 통과 -> 밀집 벡터`  </center>
 
 - 임베딩 층은 입력 정수를 밀집 벡터(dense vector)로 사상시키고, 이 밀집 벡터는 인공 신경망의 학습 과정에서 가중치가 학습되는 것과 같은 선형결합 형태로 나타나게 훈련된다. 
 
@@ -116,6 +116,12 @@ embedding_layer = nn.Embedding(num_embeddings = len(vocab),
 
 print(embedding_layer.weight)
 ```
+
+---
+
+## 참고
+
+**1\.** [Pytorch로 시작하는 딥러닝 입문, 07. 파이토치(PyTorch)의 nn.Embedding()](https://wikidocs.net/64779)
 
 
 
