@@ -76,17 +76,17 @@ toc: true
 
 - 코드 :  
   
-![pca02](/assets/images/2020-09-23-pca02.png)
+![pca02](/assets/images/2020-09-23-pca02.PNG)
 
 - 결과 :
   
-![pca01](/assets/images/2020-09-23-pca01.png)
+![pca01](/assets/images/2020-09-23-pca01.PNG)
 
 ### 2) d차원으로 투영
 
 - 코드 :  
 
-![pca03](/assets/images/2020-09-23-pca03.png)
+![pca03](/assets/images/2020-09-23-pca03.PNG)
 
 - 결과 :  
     + 3차원 : 원본 입력  
