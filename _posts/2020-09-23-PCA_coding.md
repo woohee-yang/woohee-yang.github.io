@@ -18,7 +18,7 @@ toc: true
 **2\.** sklearn.decomposition.PCA  
 **3\.** 예제  
     **3\.1\.** PCA 뜯어보기 : SVD 사용  
-    **3\.2\.** 역변환된 행렬과 비교 : Scikit-Learn 사용
+    **3\.2\.** 역변환된 행렬과 비교 : Scikit-Learn 사용  
     **3\.3\.** 이미지 PCA : Scikit-Learn 사용 
   
 
@@ -39,7 +39,7 @@ toc: true
 ---
 
 # 2. sklearn.decomposition.PCA
-
+   
 **1\.** Parameters
   
 
