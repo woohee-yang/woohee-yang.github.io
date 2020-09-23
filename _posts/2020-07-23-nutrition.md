@@ -1,7 +1,7 @@
 ---
 title: "국민건강영양조사 분석" ## 포스트 제목
 category:       
-    - EDA
+    - Dataset
 tags:           
     - 국민건강영양조사
 comments:  true

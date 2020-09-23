@@ -1,10 +1,11 @@
 ---
 title: "[Pratice] LSTM Attention" ## 포스트 제목
 category:       
-    - Practice
+    - Deep Learning
 tags:           
     - lstm
     - attention
+    - coding
 comments:  true
 use_math : true
 last_modified_at : 2020-09-14

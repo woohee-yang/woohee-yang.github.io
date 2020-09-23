@@ -10,6 +10,7 @@ comments:  true ## 댓글 기능
 use_math : true
 last_modified_at : 2020-01-28 23:25:00
 toc: true
+published : false
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp; 본 포스트는 [Hands-On Machine Learning with Scikit-Learn & TensorFlow] (저자 : Aurelien Geron / 부제: 핸즈온 머신러닝) 8장 및 [다크프로그래머 블로그 : 차원의 문제](https://darkpgmr.tistory.com/145)를 참고하여 작성되었다.
