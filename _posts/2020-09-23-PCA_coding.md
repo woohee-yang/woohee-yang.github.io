@@ -12,13 +12,27 @@ toc: true
 # published: false
 ---
 
-# 1. Scikit-Learn 라이브러리를 이용한 PCA
+# 목차
+
+**1\.** Scikit-Learn 라이브러리 내 PCA  
+**2\.** sklearn.decomposition.PCA  
+**3\.** 예제  
+    **3\.1\.** PCA 뜯어보기 : SVD 사용  
+    **3\.2\.** 역변환된 행렬과 비교 : Scikit-Learn 사용
+    **3\.3\.** 이미지 PCA : Scikit-Learn 사용 
+  
+
+---
+
+# 1. Scikit-Learn 라이브러리 내 PCA
 
 - Scikit-Learn 라이브러리 내 `sklearn.decomposition.PCA` 가 있다.
 
 - 공식 설명에 따르면 Scikit-Learn은 SVD를 사용하여 PCA를 하고 있고, 앞선 포스팅에서와 같이 먼저 입력데이터들을 입력데이터들의 평균으로 빼 원점으로 정렬시키고 SVD를 수행한다.
 
-- 입력데이터 모양과 추출할 성분 개수에 따라, **full SVD**는 [LAPACK](http://netlib.org/lapack/) 선형대수 패키지 구현을 따르고, truncated SVD는 Halko et al. 2009 논문 또는 scipy.aprse.linalg ARPACK 패키지 구현을 사용하기도 한다.
+- 입력데이터 모양과 추출할 성분 개수에 따라, 
+    + full SVD : [LAPACK](http://netlib.org/lapack/) 선형대수 패키지 구현을 따름
+    + truncated SVD : Halko et al. 2009 논문 / scipy.aprse.linalg ARPACK 패키지 구현을 사용
 
 - 참조 : [sklearn.decomposition.Truncated SVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html#sklearn.decomposition.TruncatedSVD)
 
@@ -26,12 +40,16 @@ toc: true
 
 # 2. sklearn.decomposition.PCA
 
-## 2.1 Parameters :
+**1\.** Parameters
+  
+
 - `n_components` : int, float, None or str :: 주성분 개수  
 - 이외 : copy(bool) / whiten(bool) / svd_solver(str) / tol(float) / iterate_power(int) / random_state(int)
 
+  
+**2\.** Methods  
+  
 
-## 2.2 Methods :
 - `fit_transform(X[,y])` 
     + 특징행렬을 낮은 차원의 근사행렬로 변환된 행렬 반환
     + parameters :  
@@ -59,7 +77,9 @@ toc: true
     + fit() / get_covariance() / get_params() / get_precision() / set_params() / transform()  
 
 
-## 2.3 Attributes :
+**3\.** Attributes  
+  
+
 + `mean` :  입력 데이터의 평균 벡터, 입력 데이터 정규화(중앙에 맞춤, 원점 정렬)에 사용  
 + `components_` (array, shape(n_components, n_features)) : 계산된 주성분 행벡터, 전치시켜서 봐야 주성분들 순서대로 확인  
 + `explained_variance_ratio` (array, shape(n_components)) : 설명된 분산의 비율, 각 성분들의 고유치를 비율로 표현  
@@ -69,9 +89,9 @@ toc: true
 
 ---
 
-# 3. Examples
+# 3. 예제
 
-## 3.1 PCA 뜯어보기 : 분꽃 데이터
+## 3.1 PCA 뜯어보기 : SVD 사용
 ### 1) 주성분
 
 - 코드 :  
@@ -113,6 +133,18 @@ toc: true
 
 ---
 
+## 3.2 역변환된 행렬과 비교 : Scikit-Learn 사용
+
+---
+
+## 3.3 이미지 PCA : Scikit-Learn 사용
+
+---
+
 # 참고
 
 **1\.** [Sklearn Document : PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+
+**2\.** [데이터 사이언스 스쿨 : 3.5 PCA](https://datascienceschool.net/view-notebook/f10aad8a34a4489697933f77c5d58e3a/)  
+
+**3\.** Hands-On Machine Learning with Scikit-Learn & Tensorflow : 8장 차원축소  
