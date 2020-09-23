@@ -2,8 +2,10 @@
 title: "Attention Mechanism" ## 포스트 제목
 category:       
     - Deep Learning
-tags:           
+tags:          
     - attention
+    - lstm
+    - concept
 comments:  true
 use_math : true
 last_modified_at : 2020-08-08
