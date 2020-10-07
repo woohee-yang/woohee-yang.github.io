@@ -4,6 +4,7 @@ category:
     - Machine Learning
 tags:           
     - PCA
+    - Dimensionality Reduction
     - coding
 comments:  true
 use_math : true
@@ -19,8 +20,9 @@ toc: true
 **3\.** 예제  
     **3\.1\.** PCA 뜯어보기 : SVD 사용  
     **3\.2\.** 역변환된 행렬과 비교 : Scikit-Learn 사용  
-    **3\.3\.** 이미지 PCA : Scikit-Learn 사용 
-  
+    **3\.3\.** 이미지 PCA : Scikit-Learn 사용  
+**4\.** 참고
+
 
 ---
 
