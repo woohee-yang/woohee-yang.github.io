@@ -14,33 +14,5 @@
         "rls_no": "I2RER12001",
         "rfnc_ordr_no": "O23235432001",
         "bzpt_id": "2"
-    },
-    {
-        "seat": "Y",
-        "invr_qnt": 500,
-        "rls_qnt": 100,
-        "lot_no": "L201111200004",
-        "comp_cd": "MAGEVL",
-        "rls_no": "IT2011112001",
-        "itm_id": "BV25",
-        "rls_line_no": 1,
-        "rfnc_ordr_no": "",
-        "body": "N",
-        "itm_nm": "버터플라이밸브",
-        "insp_yn": "N"
-    },
-    {
-        "seat": "N",
-        "invr_qnt": 500,
-        "rls_qnt": 200,
-        "lot_no": "L201111200003",
-        "comp_cd": "MAGEVL",
-        "rls_no": "I2RER12001",
-        "itm_id": "BV150",
-        "rls_line_no": 2,
-        "rfnc_ordr_no": "",
-        "body": "N",
-        "itm_nm": "플라이밸브",
-        "insp_yn": "N"
     }
 ]
