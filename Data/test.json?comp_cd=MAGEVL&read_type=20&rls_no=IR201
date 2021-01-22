@@ -1,0 +1,14 @@
+{
+    "seat": "Y",
+    "invr_qnt": 500,
+    "rls_qnt": 100,
+    "lot_no": "Le2313",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 1,
+    "rfnc_ordr_no": "",
+    "body": "N",
+    "itm_nm": "버터플라이밸브",
+    "insp_yn": "N"
+}
