@@ -1,19 +1,19 @@
 [
     {
-        "bzpt_nm": "(주) 국제전기안전관리",
+        "bzpt_nm": "(주)국제전기안전관리",
         "tot1_rls_qnt": 150,
         "comp_cd": "MAGEVL",
         "rls_no": "IT2011112001",
         "rfnc_ordr_no": "OD201112001",
-        "bzpt_id": "50012312"
+        "bzpt_id": "1"
     },
     {
-        "bzpt_nm": "(주) 국제전력",
+        "bzpt_nm": "(주)국제전력",
         "tot1_rls_qnt": 2330,
         "comp_cd": "MAGEVL",
         "rls_no": "I2RER12001",
         "rfnc_ordr_no": "O23235432001",
-        "bzpt_id": "5DFSEEF#12"
+        "bzpt_id": "2"
     },
     {
         "seat": "Y",
