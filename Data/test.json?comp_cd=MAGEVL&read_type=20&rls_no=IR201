@@ -1,3 +1,4 @@
+[
 {
     "seat": "Y",
     "invr_qnt": 500,
@@ -11,4 +12,75 @@
     "body": "N",
     "itm_nm": "버터플라이밸브",
     "insp_yn": "N"
+},
+{
+    "seat": "N",
+    "invr_qnt": 230,
+    "rls_qnt": 120,
+    "lot_no": "Le23112",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 2,
+    "rfnc_ordr_no": "",
+    "body": "Y",
+    "itm_nm": "버밸브",
+    "insp_yn": "Y"
+},
+{
+    "seat": "Y",
+    "invr_qnt": 330,
+    "rls_qnt": 230,
+    "lot_no": "Le23556",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 3,
+    "rfnc_ordr_no": "OD232",
+    "body": "N",
+    "itm_nm": "버브",
+    "insp_yn": "N"
+},
+{
+    "seat": "N",
+    "invr_qnt": 770,
+    "rls_qnt": 800,
+    "lot_no": "Le2343",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 4,
+    "rfnc_ordr_no": "OR230",
+    "body": "N",
+    "itm_nm": "d브",
+    "insp_yn": "N"
+},
+{
+    "seat": "Y",
+    "invr_qnt": 450,
+    "rls_qnt": 100,
+    "lot_no": "Le12332",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 5,
+    "rfnc_ordr_no": "",
+    "body": "N",
+    "itm_nm": "버터플라이밸브",
+    "insp_yn": "N"
+},
+{
+    "seat": "N",
+    "invr_qnt": 430,
+    "rls_qnt": 230,
+    "lot_no": "Le5665",
+    "comp_cd", "MAGEVL",
+    "rls_no": "IR201",
+    "itm_id": "IT101",
+    "rls_line_no": 6,
+    "rfnc_ordr_no": "",
+    "body": "N",
+    "itm_nm": "버터플",
+    "insp_yn": "N"
 }
+]
