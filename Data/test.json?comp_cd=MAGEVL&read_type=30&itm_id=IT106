@@ -1,0 +1,18 @@
+[
+    {
+        "sec": 23,
+        "lcl": 13,
+        "pres": 5,
+        "comp_id": "MAGEVL",
+        "itm_id": "IT106",
+        "ucl": 77
+    },
+    {
+        "sec": 2,
+        "lcl": 6,
+        "pres": 5,
+        "comp_id": "MAGEVL",
+        "itm_id": "IT106",
+        "ucl": 2
+    }
+]
