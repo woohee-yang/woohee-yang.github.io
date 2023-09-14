@@ -1,9 +1,9 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: WHY not?
+description: WHY's Tech Blog
+url: https://blog.woohee-yang.dev
 avatar: /avatar.jpeg
-paginate: 5
+paginate: 10
 permalink: pretty
 cover_image: /bg.jpeg
 
@@ -29,14 +29,13 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: why
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Woohee Yang
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/woohee-yang
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +53,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Woohee Yang
+  url: https://github.com/woohee-yang/
+  email: woohee9527@gmail.com
