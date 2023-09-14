@@ -7,7 +7,9 @@ use_math : true
 toc: true
 ---
 
-## torch.mm(mat1, mat2)
+# Pytorch Tensor 연산 정리 모음
+
+1. torch.mm(mat1, mat2)
 - 이 함수는 브로드캐스팅 없이 입력 텐서들의 곱을 반환한다. == `일반적인 행렬곱`
 ex) mat1.shape=(n x m), mat2.shape=(m x p) => result = (n x p)
 
