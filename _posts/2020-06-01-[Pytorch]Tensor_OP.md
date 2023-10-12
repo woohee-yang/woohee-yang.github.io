@@ -15,4 +15,4 @@ ex) mat1.shape=(n x m), mat2.shape=(m x p) => result = (n x p)
 
 - 이때 반드시 `두 텐서의 dtype이 일치`해야 한다.
 
-![op01](/assets/images/2020-06-01-torch_op01.PNG)
+![op01](/assets/images/custom/2020-06-01-torch_op01.PNG)

@@ -58,23 +58,23 @@ last_modified_at : 2020-02-02 05:01:00
 
     1) 원하는 카테고리 페이지 만들기
 
-    ![새 카테고리 페이지](/assets/images/2020-02-02-pages.PNG)
+    ![새 카테고리 페이지](/assets/images/custom/2020-02-02-pages.PNG)
 
     _pages/<원하는 카테고리 이름>.md 만들기
 
     코드 :
 
-    ![새 카테고리 페이지 코드](/assets/images/2020-02-02-pages2.PNG)
+    ![새 카테고리 페이지 코드](/assets/images/custom/2020-02-02-pages2.PNG)
 
     2) 포스트에 새로운 카테고리 이름 적기
 
-    ![새 카테고리 추가](/assets/images/2020-02-02-pages3.PNG)
+    ![새 카테고리 추가](/assets/images/custom/2020-02-02-pages3.PNG)
 
     새로운 카테고리 이름을 카테고리에 적어주면 된다. 카테고리 형식의 하위 목록으로 작성할 것 이므로!
 
     3) 네비게이터에 등록해 주기
 
-    ![네비게이터 등록](/assets/images/2020-02-02-pages4.PNG)
+    ![네비게이터 등록](/assets/images/custom/2020-02-02-pages4.PNG)
 
     새로운 카테고리를 표시하기 위해 네비게이터에 넣어주자
 

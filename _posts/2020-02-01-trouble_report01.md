@@ -28,7 +28,7 @@ Incompatible units: 'px' and 'x'.
 ```
 
 이는 현재 블로그 repository에 setting에 아래 이미지에 있는 Github Pages 섹션에서 발견할 수 있었다.
-![Github Pages](/assets/images/trouble_report.PNG)
+![Github Pages](/assets/images/custom/trouble_report.PNG)
 
 (초록 박스가 노란색으로 변해있었고 위의 문구가 표시되고 있었다.)
 
@@ -36,7 +36,7 @@ Incompatible units: 'px' and 'x'.
 
 하지만 css 파일 중 px를 x로 잘못 쓰고 있어 문제를 일으키고 있다는 것을 파악하여 commit 기록을 보고 문제를 찾을 수 있었다. 왜 진작 기록을 볼 생각을 안했는지 모르겠다...
 
-![commit log](/assets/images/2020-02-01-commit_기록.PNG)
+![commit log](/assets/images/custom/2020-02-01-commit_기록.PNG)
 
 기록에서 보면 2020년 01월 29일 내가 블로그 글 영역 폭을 넓히겠다고 만졌다가 이런 사달이 난 것이었다... 이러니 이후 아무리 커밋을 해도 받아주지 않았던 것이었다...ㅠㅠ 제발 커밋 기록부터 먼저보고 삽질하지 말자...
 
