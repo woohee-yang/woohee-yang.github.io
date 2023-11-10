@@ -46,8 +46,7 @@ math: true
 ## 공부한 것, 알게된 것, 느낀점 + 추가로 알아본 것
 - 확률론과 기초 딥러닝 수학지식을 복습하고 직접 구현해보았다. 까먹은 부분이나 부족했던 부분이 새록새록 올라오는 한주였다...ㅠㅠ
 - MLE 추정에서 다변수에 대한 우도 추정시 어떻게 해야하는지에 대해 추가로 알아보았다. 추가로 정리해 놓겠다. [참고:데이터사이언스스쿨](https://datascienceschool.net/02%20mathematics/09.02%20최대가능도%20추정법.html)
-- [pytorch-frame](https://pytorch-frame.readthedocs.io/en/latest/
-https://github.com/pyg-team/pytorch-frame) : tabular data용 딥러닝 프레임워크
+- [pytorch-frame](https://pytorch-frame.readthedocs.io/en/latest/) : tabular data용 딥러닝 프레임워크 [git](https://github.com/pyg-team/pytorch-frame)
 - [중심극한정리 참고 영상](https://www.youtube.com/watch?v=zeJD6dqJ5lo&ab_channel=3Blue1Brown)
 - [고성능ML 백엔드를 위한 10가지 성능 최적화 팁](https://hyperconnect.github.io/2023/05/30/Python-Performance-Tips.html)
 - [판다스에서는 inplace를 권장하지 않는다!](https://pandas.pydata.org/docs/whatsnew/v2.0.0.html)
