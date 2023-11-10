@@ -8,6 +8,7 @@ tags:
 comments: true
 last_modified_at : 2023-11-10 13:00:00
 toc: true
+math: true
 ---
 
 # 최대 가능도 추정(Maximum Likelihood Estimation, MLE)은 왜 할까?
