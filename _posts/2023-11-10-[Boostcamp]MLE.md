@@ -1,7 +1,7 @@
 ---
-title:          "[네이버 부스트캠프 AI Tech] Maximum Likelihood Estimation"
+title:          "[네이버 부스트캠프 AI Tech 6기] Maximum Likelihood Estimation"
 categories:       
-    - MLE
+    - Naver_BoostCamp_AI
 tags:           
     - 구현
     - MLE
