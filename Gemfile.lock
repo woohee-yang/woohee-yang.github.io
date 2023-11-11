@@ -103,6 +103,9 @@ GEM
     yell (2.2.2)
     zeitwerk (2.6.12)
 
+PLATFORMS
+  x86_64-linux
+
 DEPENDENCIES
   html-proofer (~> 4.4)
   http_parser.rb (~> 0.6.0)
