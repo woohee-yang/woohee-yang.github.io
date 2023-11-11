@@ -7,7 +7,7 @@ use_math : true
 toc: true
 ---
 
-# 메모리를 따로 할당하지 않는 Tensor 객체 연산
+## 메모리를 따로 할당하지 않는 Tensor 객체 연산
 
 ```
 - narrow()
@@ -24,7 +24,9 @@ etc (찾는대로 추가필요)
 
 * 위 목록 연산들의 출력 객체는 non-contiguous 이다.
 
-# 메모리를 따로 할당하지 않을때 문제점
+---
+
+## 메모리를 따로 할당하지 않을때 문제점
 
 메모리를 따로 할당하지 않기 때문에 column 기준으로 축을 바꿔버려 추후 바뀐 축단위 포인터 연산이 필요할시 문제가 될 수 있다.
 
@@ -65,8 +67,9 @@ etc (찾는대로 추가필요)
 
 ![con06](/assets/images/custom/2020-05-30-contiguous06.PNG)
 
+---
 
-# 해결방안 : Contiguous 함수
+## 해결방안 : Contiguous 함수
 
 non-contiguous Tensor 객체의 경우 주소값 연속성이 불변인 것이 문제이므로 이를 contiguous()로 새로운 메모리 공간에 데이터를 복사하여 주소값 연속성을 가변적이게 만들어줄 수 있다. 아래 실제 결과에서 contiguous() 결과가 원본과 다른 새로운 주소로 할당된 것을 확인할 수 있다.
 
@@ -79,8 +82,9 @@ non-contiguous Tensor 객체의 경우 주소값 연속성이 불변인 것이 �
 
 ![con08](/assets/images/custom/2020-05-30-contiguous08.PNG)
 
+---
 
-# 정리
+## 정리
 
 - view, transpose, permute 등과 같은 원본 Tensor의 메타데이터만 변경하는 함수들의 결과값은 non-contiguous Tensor 이다.
 
