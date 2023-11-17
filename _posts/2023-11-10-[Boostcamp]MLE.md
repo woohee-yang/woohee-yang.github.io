@@ -1,5 +1,5 @@
 ---
-title:          "[네이버 부스트캠프 AI Tech 6기] 최대 가능도 추정 (Maximum Likelihood Estimation, MLE)"
+title: "[네이버 부스트캠프 AI Tech 6기] 최대 가능도 추정 (Maximum Likelihood Estimation, MLE)"
 categories:       
     - Naver_BoostCamp_AI
 tags:           
