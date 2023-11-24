@@ -15,8 +15,7 @@ toc: true
 1. 논문을 어떻게 찾는가???
 	-  넓은 주제
 		* 최신 Review 논문 (옛날은 안돼!!!!!, 최소 2-3년)
-		* 완전히 뭐를 찾아야할지 모를때 : CVPR2023 논문들중 가장 많이 발표된 논문 (CVPR2023 by the Numbers)
-		   https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no
+		* 완전히 뭐를 찾아야할지 모를때 : CVPR2023 논문들중 가장 많이 발표된 논문 (CVPR2023 by the Numbers)[https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no]
 	-  특정 주제 (좁은 주제)
 		* 키워드 “awesome” 붙여서 github 내용 검색
 	- 저자를 찾기! -> 대학인 경우에는 랩실 단위로 보거나 관심있는 교수님 논문을 본다.
