@@ -15,7 +15,7 @@ toc: true
 1. 논문을 어떻게 찾는가???
 	-  넓은 주제
 		* 최신 Review 논문 (옛날은 안돼!!!!!, 최소 2-3년)
-		* 완전히 뭐를 찾아야할지 모를때 : CVPR2023 논문들중 가장 많이 발표된 논문 (CVPR2023 by the Numbers)[https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no]
+		* 완전히 뭐를 찾아야할지 모를때 : CVPR2023 논문들중 가장 많이 발표된 논문 [CVPR2023 by the Numbers](https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no)
 	-  특정 주제 (좁은 주제)
 		* 키워드 “awesome” 붙여서 github 내용 검색
 	- 저자를 찾기! -> 대학인 경우에는 랩실 단위로 보거나 관심있는 교수님 논문을 본다.
@@ -24,18 +24,18 @@ toc: true
 	2) 컨퍼런스 제출하느라 업데이트가 되었거나 내용을 빠뜨렸을 수도 있으니 찾아본다<br>
 	3) 읽기<br>
 		- 잘 알때(전문가) : experiments 위주로 봄<br>
-			(2) 요약을 읽음 -> 잘 아는 내용이면 넘어가기도<br>
-			(3) 요약을 잘 모를때 -> Related Work<br>
-			(4) Introduction ~= Abstarct<br>
-			=> 논문에 흥미도에 따라 읽을지 말지 판가름<br>
-			(5) 쓰고 싶으면 : Experiments<br>
+			    (2) 요약을 읽음 -> 잘 아는 내용이면 넘어가기도<br>
+			    (3) 요약을 잘 모를때 -> Related Work<br>
+			    (4) Introduction ~= Abstarct<br>
+			            => 논문에 흥미도에 따라 읽을지 말지 판가름<br>
+			    (5) 쓰고 싶으면 : Experiments<br>
 		- 잘 모를때 : 순서대로<br>
-			(1) 컨셉 설명 사진 봄(abstract위에)<br>
-			(2) Related Work<br>
-			(3) Introduction ~= Abstract<br>
-			(4) Proposed Method 다 읽어야함<br>
-			(5) 실험에서 쓴 평가지표 읽기<br>
-			(6) Ablation Study는 다르게 실험해본 내용이니 공부할때는 필요X<br>
+                (1) 컨셉 설명 사진 봄(abstract위에)<br>
+                (2) Related Work<br>
+                (3) Introduction ~= Abstract<br>
+                (4) Proposed Method 다 읽어야함<br>
+                (5) 실험에서 쓴 평가지표 읽기<br>
+                (6) Ablation Study는 다르게 실험해본 내용이니 공부할때는 필요X<br>
 
 ---
 
@@ -83,12 +83,11 @@ toc: true
 
 ### 공부한 것, 알게된 것, 느낀점 + 추가로 알아본 것
 - SGD는 왜 Stochastic 인가?
-- receptive field 설명 : [https://distill.pub/2019/computing-receptive-fields/]
-- nvidia pytorch tensorRT
-[https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/running.html]
+- [receptive field 설명](https://distill.pub/2019/computing-receptive-fields/)
+- [nvidia pytorch tensorRT](https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/running.html)
 - 우리집 컴퓨터(a.k.a 춘식이)에 프로젝트 환경셋팅을 다시 하면서 docker 새로운 tensorRT라는 새로운 라이브러리를 알았다! nvidia에서 직접 제작한 텐서 연산에 최적화된 라이브러리라고 한다. 
-- vscode powerline font 적용: [https://github.com/romkatv/powerlevel10k/issues/671]
-- CVPR 2023 트랜드 : [https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no]
-- on / offline data aggumentation : [https://stackoverflow.com/questions/72388663/online-vs-offline-data-augmentation]
-- powerlevel10k : [https://github.com/romkatv/powerlevel10k#how-do-i-change-prompt-colors]
+- [vscode powerline font 적용](https://github.com/romkatv/powerlevel10k/issues/671)
+- [CVPR 2023 트랜드](https://public.tableau.com/views/CVPR2023SubjectAreasbyTeamSize/Dashboard2a?:showVizHome=no)
+- [on / offline data aggumentation](https://stackoverflow.com/questions/72388663/online-vs-offline-data-augmentation)
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k#how-do-i-change-prompt-colors)
 - powerlevel10k configure reset command : p10k configure
