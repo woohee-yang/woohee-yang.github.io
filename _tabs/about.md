@@ -91,6 +91,23 @@ order: 4
 
 ---
 
+# Education & Certification
+## Education
+
+부경대학교 / IT융합응용공학과 학사
+- GPA: 4.37 / 4.5 (수석 졸업)
+
+부경대학교 / 인공지능융합학과 석사
+- 연구 분야: Pose Estimation
+- GPA: 4.44 / 4.5
+
+## Certification
+- SQLD(SQL 개발자)
+- 빅데이터분석기사 (필합, 실기예정)
+- OPIC (2월 예정)
+
+---
+
 # 수상경력
 
 | 수상처 | 수상내용 | 기간 | 상세설명 |
