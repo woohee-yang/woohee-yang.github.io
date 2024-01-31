@@ -15,7 +15,7 @@ order: 4
 ---
 
 # 최근 활동
-(2023.12 ~ ) DebConf24 Organizing Local Team<br>
+(2023.12 ~ ) DebConf24 Organizer<br>
 (2023.11 ~ ) 네이버 부스트캠프 AI Tech 6기<br>
 (2023.10 ~) 네이버 코칭스터디 13기 리드부스터 수료<br>
 
